@@ -1,0 +1,22 @@
+node_modules
+dist
+.env
+.env.local
+*.log
+.DS_Store
+.turbo
+supabase/.temp
+.vercel
+.fly
+*.tsbuildinfo
+.env.docker
+
+# Rust / Soroban build artifacts
+target/
+**/target/
+*.wasm.opt
+Cargo.lock.bak
+
+# Test scaffolding
+/tmp/e2e-keys.json
+contracts/*/test_snapshots/
